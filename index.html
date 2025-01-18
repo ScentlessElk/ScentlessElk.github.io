@@ -3,55 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Data Analysis Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #007acc;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            overflow: hidden;
-            padding: 2rem 0;
-        }
-        .project {
-            background: white;
-            margin: 1rem 0;
-            padding: 1rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .project h3 {
-            margin: 0 0 0.5rem 0;
-        }
-        .project p {
-            margin: 0.5rem 0;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Leon Julius Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>My Data Analysis Portfolio</h1>
+        <h1>Leon Julius Portfolio</h1>
+        <p>Data Analytics & Business Analysis</p>
     </header>
-    <div class="container">
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+    </nav>
+    <div id="home" class="container section">
+        <h2>Welcome</h2>
+        <p>Welcome to my professional portfolio. I specialize in data analytics and business analysis, delivering insights that drive decision-making and business success. Explore my work to learn more.</p>
+        <a href="#portfolio">View My Work</a>
+    </div>
+    <div id="about" class="container section">
+        <h2>About Me</h2>
+        <p>Analytical and results-oriented Business Analyst with a strong foundation in data-driven decision-making and systems implementation. Proficient in SQL, Power BI, Tableau, and Agile methodologies, with expertise in data visualization and stakeholder collaboration.</p>
+        <p>Education: Bachelor's Degree of Applied Science in Information Management, Summa Cum Laude.</p>
+        <p>Skills include Product Management, Data Analytics & Visualization, and Project Management using tools like Jira, Trello, and Lucidchart.</p>
+    </div>
+    <div id="portfolio" class="container section">
+        <h2>Portfolio</h2>
+        <h3>Published Articles</h3>
+        <div class="article">
+            <h3>Data Quality Starts with Standardization</h3>
+            <p>Why industries need to standardize their databases for better data quality.</p>
+            <a href="https://medium.com/@leon.julius6/data-quality-starts-with-standardization-why-industries-need-to-standardize-their-databases-7d46bcb5b1df" target="_blank" rel="noopener">Read Article</a>
+        </div>
+        <div class="article">
+            <h3>Choosing the Right Tech Stack for Your SaaS Application</h3>
+            <p>Insights into selecting the best technology stack for SaaS applications.</p>
+            <a href="https://medium.com/@leon.julius6/choosing-the-right-tech-stack-for-your-saas-application-what-to-know-0412a09e7319" target="_blank" rel="noopener">Read Article</a>
+        </div>
+        <div class="article">
+            <h3>The Mirror Effect: What Your Business Data Says About Your Culture</h3>
+            <p>Exploring the connection between business data and organizational culture.</p>
+            <a href="https://medium.com/@leon.julius6/the-mirror-effect-what-your-business-data-says-about-your-culture-83726cc0918e" target="_blank" rel="noopener">Read Article</a>
+        </div>
+        <h3>EDA Notebooks</h3>
         <div class="project">
             <h3>Crop Yield EDA</h3>
             <p>Exploratory data analysis on crop yield data to uncover trends and patterns affecting agricultural outputs.</p>
@@ -63,12 +57,7 @@
             <a href="https://github.com/ScentlessElk/Hurricane_Data_EDA" target="_blank" rel="noopener">View Repository</a>
         </div>
         <div class="project">
-            <h3>HYG Data Analysis</h3>
-            <p>Exploring celestial object data to reveal insights into star properties and their distribution in the galaxy.</p>
-            <a href="https://github.com/ScentlessElk/HYG_Astronomy_EDA" target="_blank" rel="noopener">View Repository</a>
-        </div>
-        <div class="project">
-            <h3>Netflix Data EDA</h3>
+            <h3>Netflix Movies and Shows EDA</h3>
             <p>Comprehensive analysis of Netflix's dataset to understand trends in content creation and audience preferences.</p>
             <a href="https://github.com/ScentlessElk/Netflix_EDA" target="_blank" rel="noopener">View Repository</a>
         </div>
@@ -77,6 +66,14 @@
             <p>Investigation of shopping trends data to identify seasonal patterns and consumer behavior insights.</p>
             <a href="https://github.com/ScentlessElk/Shopping_Trends_EDA" target="_blank" rel="noopener">View Repository</a>
         </div>
+        <div class="project">
+            <h3>HYG Astronomy Database EDA</h3>
+            <p>Exploring celestial object data to reveal insights into star properties and their distribution in the galaxy.</p>
+            <a href="https://github.com/ScentlessElk/HYG_Astronomy_EDA" target="_blank" rel="noopener">View Repository</a>
+        </div>
     </div>
+    <footer>
+        <p>&copy; 2025 Leon Julius. All rights reserved.</p>
+    </footer>
 </body>
 </html>
