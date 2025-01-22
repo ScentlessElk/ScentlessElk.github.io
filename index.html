@@ -3,77 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Leon Julius, a Data Analytics and Business Analysis expert, showcasing skills, projects, and articles.">
+    <meta name="keywords" content="Portfolio, Data Analytics, Business Analysis, Leon Julius, Data Visualization">
+    <meta name="author" content="Leon Julius">
     <title>Leon Julius Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Leon Julius Portfolio</h1>
+    <nav class="container-fluid" role="navigation">
+        <div class="nav-header">
+            <strong>Leon Julius Portfolio</strong>
+            <button id="hamburger-menu" type="button" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+        <ul id="nav-links">
+            <li><a href="#about" id="nav-about" aria-label="Navigate to About section">About</a></li>
+            <li><a href="#portfolio" id="nav-portfolio" aria-label="Navigate to Portfolio section">Portfolio</a></li>
+            <li><a href="#contact" id="nav-contact" aria-label="Navigate to Contact section">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1>Leon Julius</h1>
         <p>Data Analytics & Business Analysis</p>
     </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-    </nav>
-    <div id="home" class="container section">
-        <h2>Welcome</h2>
-        <p>Welcome to my professional portfolio. I specialize in data analytics and business analysis, delivering insights that drive decision-making and business success. Explore my work to learn more.</p>
-        <a href="#portfolio">View My Work</a>
-    </div>
-    <div id="about" class="container section">
-        <h2>About Me</h2>
-        <p>Analytical and results-oriented Business Analyst with a strong foundation in data-driven decision-making and systems implementation. Proficient in SQL, Power BI, Tableau, and Agile methodologies, with expertise in data visualization and stakeholder collaboration.</p>
-        <p>Education: Bachelor's Degree of Applied Science in Information Management, Summa Cum Laude.</p>
-        <p>Skills include Product Management, Data Analytics & Visualization, and Project Management using tools like Jira, Trello, and Lucidchart.</p>
-    </div>
-    <div id="portfolio" class="container section">
-        <h2>Portfolio</h2>
-        <h3>Published Articles</h3>
-        <div class="article">
-            <h3>Data Quality Starts with Standardization</h3>
-            <p>Why industries need to standardize their databases for better data quality.</p>
-            <a href="https://medium.com/@leon.julius6/data-quality-starts-with-standardization-why-industries-need-to-standardize-their-databases-7d46bcb5b1df" target="_blank" rel="noopener">Read Article</a>
+    <main class="container">
+        <section id="about">
+            <hgroup>
+                <h2>About Me</h2>
+                <h3>Your Data, My Insight</h3>
+            </hgroup>
+            <p><i>
+                Analytical and results-oriented Business and Data Analyst with a strong foundation in data-driven decision-making and systems implementation. Proven expertise in translating business requirements into technical solutions, creating actionable insights through data visualization, and streamlining workflows to optimize organizational efficiency. Proficient in SQL, Power BI, Tableau, and Agile methodologies, with a proven ability to collaborate with stakeholders across business and technical teams.
+            </i></p>
+        </section>
+        <hr>
+        <section id="skills">
+            <hgroup>
+                <h2>Skills</h2>
+                <h3>Tools I Work With</h3>
+            </hgroup>
+            <div class="skills">
+                <div>
+                    <img src="/assets/icons/python_icon.svg" alt="Python Icon" aria-hidden="true" loading="lazy">
+                    <p>Python</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/sql_icon.svg" alt="SQL Icon" aria-hidden="true" loading="lazy">
+                    <p>SQL</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/powerbi_icon.svg" alt="Power BI Icon" aria-hidden="true" loading="lazy">
+                    <p>Power BI</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/tableau_icon.svg" alt="Tableau Icon" aria-hidden="true" loading="lazy">
+                    <p>Tableau</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/excel_icon.svg" alt="Excel Icon" aria-hidden="true" loading="lazy">
+                    <p>Excel</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/mongodb_icon.svg" alt="MongoDB Icon" aria-hidden="true" loading="lazy">
+                    <p>MongoDB</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/postgresql_icon.svg" alt="PostgreSQL Icon" aria-hidden="true" loading="lazy">
+                    <p>PostgreSQL</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/agilescrum_icon.svg" alt="Agile Icon" aria-hidden="true" loading="lazy">
+                    <p>Agile/Scrum</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/jira_icon.svg" alt="Jira Icon" aria-hidden="true" loading="lazy">
+                    <p>Jira</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/trello_icon.svg" alt="Trello Icon" aria-hidden="true" loading="lazy">
+                    <p>Trello</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/salesforce_icon.svg" alt="Salesforce Icon" aria-hidden="true" loading="lazy">
+                    <p>Salesforce</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/visio_icon.svg" alt="Visio Icon" aria-hidden="true" loading="lazy">
+                    <p>Visio</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/zoom_icon.svg" alt="Zoom Icon" aria-hidden="true" loading="lazy">
+                    <p>Zoom</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/react_icon.svg" alt="React Icon" aria-hidden="true" loading="lazy">
+                    <p>React</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/html_icon.svg" alt="HTML Icon" aria-hidden="true" loading="lazy">
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/css_icon.svg" alt="CSS Icon" aria-hidden="true" loading="lazy">
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/javascript_icon.svg" alt="JavaScript Icon" aria-hidden="true" loading="lazy">
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <img src="/assets/icons/office_icon.svg" alt="Microsoft Office Icon" aria-hidden="true" loading="lazy">
+                    <p>Microsoft Office Suite</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="portfolio">
+            <hgroup>
+                <h2>Portfolio</h2>
+                <h3>Medium Articles</h3>
+            </hgroup>
+            <div class="grid">
+                <div>
+                    <figure>
+                        <img src="/assets/medium_dataquality_image.webp" alt="Data Quality Project Image" loading="lazy">
+                        <figcaption><strong>Data Quality Starts with Standardization</strong></figcaption>
+                        <figcaption>
+                            <p>This article delves into the critical role of database standardization in improving data quality, efficiency, and decision-making.</p>
+                            <a href="https://medium.com/@leon.julius6/data-quality-starts-with-standardization-why-industries-need-to-standardize-their-databases-7d46bcb5b1df" target="_blank" rel="noopener">Read the Article</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/assets/medium_mirror_image.webp" alt="Mirror Effect Image" loading="lazy">
+                        <figcaption><strong>The Mirror Effect: What Your Business Data Says About Your Culture</strong></figcaption>
+                        <figcaption>
+                            <p>This piece explores how the data metrics organizations choose to track and prioritize reflect their cultural values and priorities.</p>
+                            <a href="https://medium.com/@leon.julius6/the-mirror-effect-what-your-business-data-says-about-your-culture-83726cc0918e" target="_blank" rel="noopener">Read the Article</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/assets/medium_techstack_image.webp" alt="Tech Stack Article Image" loading="lazy">
+                        <figcaption><strong>Choosing the Right Tech Stack for your SaaS Application</strong></figcaption>
+                        <figcaption>
+                            <p>This guide provides an in-depth look at how to select the best technology stack for building scalable SaaS applications.</p>
+                            <a href="https://medium.com/@leon.julius6/choosing-the-right-tech-stack-for-your-saas-application-0412a09e7319" target="_blank" rel="noopener">Read the Article</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <hr>
+            <hgroup>
+                <h3>Data Analysis Notebooks</h3>
+            </hgroup>
+            <div class="grid">
+                <div>
+                    <figure>
+                        <img src="/assets/netflix_eda.png" alt="Netflix EDA Image" loading="lazy">
+                        <figcaption><strong>Netflix EDA</strong></figcaption>
+                        <figcaption>
+                            <p>This notebook presents an exploratory data analysis of Netflix’s content library.</p>
+                            <a href="https://github.com/ScentlessElk/Netflix_EDA" target="_blank" rel="noopener noreferrer">Explore the Analysis</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/assets/shoppingtrends_eda.png" alt="Shopping Trends EDA Image" loading="lazy">
+                        <figcaption><strong>Shopping Trends EDA</strong></figcaption>
+                        <figcaption>
+                            <p>This analysis examines shopping behavior to identify trends in consumer preferences.</p>
+                            <a href="https://github.com/ScentlessElk/Shopping_Trends_EDA" target="_blank" rel="noopener noreferrer">Explore the Analysis</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/assets/cropyield_eda.png" alt="Crop Yield EDA Image" loading="lazy">
+                        <figcaption><strong>Crop Yield EDA</strong></figcaption>
+                        <figcaption>
+                            <p>Focused on agricultural data, this notebook investigates factors influencing crop yields across regions.</p>
+                            <a href="https://github.com/ScentlessElk/Crop_Yield_EDA" target="_blank" rel="noopener noreferrer">Explore the Analysis</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/assets/hyg_eda.png" alt="HYG Astronomy EDA Image" loading="lazy">
+                        <figcaption><strong>HYG Astronomy EDA</strong></figcaption>
+                        <figcaption>
+                            <p>This project analyzes the HYG star catalog to explore patterns in stellar properties.</p>
+                            <a href="https://github.com/ScentlessElk/HYG_Astonomy_EDA" target="_blank" rel="noopener noreferrer">Explore the Analysis</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="/assets/hurricane_eda.png" alt="Hurricane EDA Image" loading="lazy">
+                        <figcaption><strong>Hurricane Data EDA</strong></figcaption>
+                        <figcaption>
+                            <p>This notebook examines historical hurricane data to uncover patterns in frequency and intensity.</p>
+                            <a href="https://github.com/ScentlessElk/Hurricane_Data_EDA" target="_blank" rel="noopener noreferrer">Explore the Analysis</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <hgroup>
+                <h2>Contact Me</h2>
+                <h3>Let's Connect</h3>
+            </hgroup>
+            <form id="contact-form" action="/submit" method="post">
+                <input type="text" id="firstname" name="firstname" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="form-feedback" aria-live="polite"></p>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <small>&copy; 2025 Leon Julius. All rights reserved. <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/leon-julius" aria-label="LinkedIn Profile"><img src="/assets/icons/linkedin_icon.svg" alt="LinkedIn Icon"></a>
+            <a href="https://github.com/Scentlesselk" aria-label="GitHub Profile"><img src="/assets/icons/github_icon.svg" alt="GitHub Icon"></a>
+            <a href="https://medium.com/@leon.julius6" aria-label="Medium Profile"><img src="/assets/icons/medium_icon.svg" alt="Medium Icon"></a>
         </div>
-        <div class="article">
-            <h3>Choosing the Right Tech Stack for Your SaaS Application</h3>
-            <p>Insights into selecting the best technology stack for SaaS applications.</p>
-            <a href="https://medium.com/@leon.julius6/choosing-the-right-tech-stack-for-your-saas-application-what-to-know-0412a09e7319" target="_blank" rel="noopener">Read Article</a>
-        </div>
-        <div class="article">
-            <h3>The Mirror Effect: What Your Business Data Says About Your Culture</h3>
-            <p>Exploring the connection between business data and organizational culture.</p>
-            <a href="https://medium.com/@leon.julius6/the-mirror-effect-what-your-business-data-says-about-your-culture-83726cc0918e" target="_blank" rel="noopener">Read Article</a>
-        </div>
-        <h3>EDA Notebooks</h3>
-        <div class="project">
-            <h3>Crop Yield EDA</h3>
-            <p>Exploratory data analysis on crop yield data to uncover trends and patterns affecting agricultural outputs.</p>
-            <a href="https://github.com/ScentlessElk/Crop_Yield_EDA" target="_blank" rel="noopener">View Repository</a>
-        </div>
-        <div class="project">
-            <h3>Hurricane Data EDA</h3>
-            <p>Analysis of over a century of hurricane data to identify trends in frequency, intensity, and regional impact.</p>
-            <a href="https://github.com/ScentlessElk/Hurricane_Data_EDA" target="_blank" rel="noopener">View Repository</a>
-        </div>
-        <div class="project">
-            <h3>Netflix Movies and Shows EDA</h3>
-            <p>Comprehensive analysis of Netflix's dataset to understand trends in content creation and audience preferences.</p>
-            <a href="https://github.com/ScentlessElk/Netflix_EDA" target="_blank" rel="noopener">View Repository</a>
-        </div>
-        <div class="project">
-            <h3>Shopping Trends EDA</h3>
-            <p>Investigation of shopping trends data to identify seasonal patterns and consumer behavior insights.</p>
-            <a href="https://github.com/ScentlessElk/Shopping_Trends_EDA" target="_blank" rel="noopener">View Repository</a>
-        </div>
-        <div class="project">
-            <h3>HYG Astronomy Database EDA</h3>
-            <p>Exploring celestial object data to reveal insights into star properties and their distribution in the galaxy.</p>
-            <a href="https://github.com/ScentlessElk/HYG_Astronomy_EDA" target="_blank" rel="noopener">View Repository</a>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2025 Leon Julius. All rights reserved.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
+
+
